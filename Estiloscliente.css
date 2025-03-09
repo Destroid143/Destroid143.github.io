@@ -1,0 +1,70 @@
+/* Reset general para eliminar márgenes y paddings predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegura que el tamaño incluya el padding y border */
+}
+
+/* Configuración del fondo de la página */
+body {
+    background-image: url(RES.JPG); /* Imagen de fondo */
+    background-size: cover; /* La imagen cubre todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-attachment: fixed; /* Fija la imagen al hacer scroll */
+    min-height: 100vh; /* Altura mínima de la pantalla */
+}
+
+/* Estilos del formulario */
+.Info {
+    width: 600px; /* Ancho del formulario */
+    background: #24353c; /* Color de fondo oscuro */
+    padding: 60px; /* Espaciado interno */
+    margin: auto; /* Centrado horizontal */
+    margin-top: 10px; /* Espacio superior */
+    font-family: 'Calibri', sans-serif; /* Fuente de texto */
+    color: white; /* Color del texto */
+    box-shadow: 7px 13px 37px #000; /* Sombra para efecto tridimensional */
+}
+
+/* Estilos del título dentro del formulario */
+.Info h4 {
+    font-size: 35px; /* Tamaño del título */
+    margin-bottom: 20px; /* Espacio inferior */
+    margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilos de los campos de entrada */
+.controls { 
+    width: 100%; /* Ocupar todo el ancho disponible */
+    background: #24363c; /* Fondo oscuro */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-bottom: 16px; /* Espacio entre campos */
+    border: 2px solid #1f53c5; /* Borde azul */
+    font-family: 'Calibri', sans-serif; /* Fuente de texto */
+    font-size: 18px; /* Tamaño de la fuente */
+    color: white; /* Color del texto */
+}
+
+/* Estilos de los enlaces dentro del formulario */
+.Info a {
+    color: white; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Efecto hover en los enlaces */
+.Info a:hover {
+    color: pink; /* Cambio de color al pasar el mouse */
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+}
+.texto{
+    text-align: justify;
+}
+
+.Titulo {
+    text-align: center;
+}
+
+
