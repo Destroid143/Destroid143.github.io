@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Dioses.css">
+    <link rel="stylesheet" type="text/css" href="Estiloscliente 3.css">
+    <link rel="stylesheet" type="text/css" href="Menu.css">
+    <link rel="stylesheet" type="text/css" href="EstiloREDES.css">
+    <link rel="stylesheet" type="text/css" href="SUBmenu.css">
+    <link rel="stylesheet" type="text/css" href="Mov.css">
+    <link rel="stylesheet" type="text/css" href=".css">
+    <script src="slider.js" defer></script>
+    <script src="redireccion.js" defer></script>
+    <script src="Mueve.js"></script>
+    <title>You Can't</title>
+</head>
+<body>
+    <!-- Menú principal -->
+    <ul class="menu">
+        <li><a href="Home.html">CONSEJOS</a></li>
+        <li><a href="Mision.html">HUELLA ECOLOGICA</a></li>
+        <li><a href="Vision.html">RESIDUOS</a></li>
+        <li><a href="Valores.html">SOBRE POBLACION</a></li>
+        <li><a href="Panteon.html">CONTAMINACION</a></li>
+        <li><a href="Index.html">ECOLOGIA</a></li>
+        <li><a href="iniciar secion.html">CONSUMO</a></li>
+    </ul>
+
+    <!-- Primer Slider -->
+    <div class="slider-container">
+        <div class="slider" id="slider1">
+            <span style="--i:1;"><a href="Micro.html"><img src="RUN/img 1.jpeg" alt="Imagen 1"></a></span>
+            <span style="--i:2;"><a href="Plasticos.html"><img src="RUN/img 2.jpeg" alt="Imagen 2"></a></span>
+            <span style="--i:3;"><a href="Botellas.html"><img src="RUN/img 3.jpeg" alt="Imagen 3"></a></span>
+            <span style="--i:4;"><a href="Carton.html"><img src="RUN/img 4.jpeg" alt="Imagen 4"></a></span>
+            <span style="--i:5;"><a href="Resiclado.html"><img src="RUN/img 5.jpeg" alt="Imagen 5"></a></span>
+            <span style="--i:6;"><a href="Basura.html"><img src="RUN/img 6.jpeg" alt="Imagen 6"></a></span>
+            <span style="--i:7;"><a href="Organico.html"><img src="RUN/img 7.jpeg" alt="Imagen 7"></a></span>
+            <span style="--i:8;"><a href="Desecho.html"><img src="RUN/img 8.jpeg" alt="Imagen 8"></a></span>
+        </div>
+        
+        <!-- Barra de control -->
+        <input type="range" id="sliderRange" min="0" max="7" value="0" step="1" oninput="updateSlider()">
+    </div>
+
+    <!-- Segundo Slider -->
+    <div class="slider-container">
+        <div class="slider" id="slider2">
+            <span style="--i:1;"><a href="Vidrio.html"><img src="RUN/img 9.jpeg" alt="Imagen 10"></a></span>
+            <span style="--i:2;"><a href="Roto.html"><img src="RUN/img 10.jpeg" alt="Imagen 11"></a></span>
+            <span style="--i:3;"><a href="Reparado.html"><img src="RUN/img 11.jpeg" alt="Imagen 12"></a></span>
+            <span style="--i:4;"><a href="Metal.html"><img src="RUN/img 12.jpeg" alt="Imagen 13"></a></span>
+            <span style="--i:5;"><a href="Occido.html"><img src="RUN/img 13.jpeg" alt="Imagen 14"></a></span>
+            <span style="--i:6;"><a href="Herramienta.html"><img src="RUN/img 14.jpeg" alt="Imagen 15"></a></span>
+            <span style="--i:7;"><a href="Telas.html"><img src="RUN/img 15.jpeg" alt="Imagen 16"></a></span>
+            <span style="--i:8;"><a href="Tragas.html"><img src="RUN/img 16.jpeg" alt="Imagen 17"></a></span>
+        </div>
+        
+        <!-- Barra de control -->
+        <input type="range" id="sliderRange2" min="0" max="7" value="0" step="1" oninput="updateSlider2()">
+    </div>
+
+</body>
+</html>
