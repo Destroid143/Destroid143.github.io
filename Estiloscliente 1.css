@@ -7,7 +7,7 @@
 
 /* Configuración del fondo de la página */
 body {
-    background-image: url(EU.GIF); /* Imagen de fondo */
+    background-image: url(EU.gif); /* Imagen de fondo */
     background-size: cover; /* La imagen cubre todo el fondo */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita la repetición de la imagen */
